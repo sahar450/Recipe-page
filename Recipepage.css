@@ -1,0 +1,72 @@
+@font-face {
+    font-family:"Outfit-VariableFont_wght" ;
+    src: url("recipe-page-main\assets\fonts\outfit\Outfit-VariableFont_wght.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#f3e5d8 ;
+}
+
+.minbox{
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto auto auto;
+    background-color: white;
+    border-radius: 15px;
+    max-width:595px; 
+}
+img{
+    border-radius: 15px;
+    margin: 25px ;
+    width:90%;
+    justify-content: center;
+    align-content: center;
+    
+}
+.text1{
+    font-family: "Outfit-VariableFont_wght";
+    margin: 25px ;
+
+}
+
+.box2{
+    margin: 25px ;
+    max-width:595px;
+    height: 150px;
+    background-color:#f3e5d8 ;
+    border-radius: 15px;
+
+}
+h3{
+    color: #811043;
+    padding: 15px;
+}
+ol li{
+	padding: 5px;
+}
+h2{
+	color: #811043;
+	
+}
+ol li::marker{
+ 
+  color: #811043;
+
+}
+.cont{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+}
+td{
+ 
+  border-bottom: 1px solid #ddd;
+   
+}
+.tset{
+	color:#811043;
+	padding: 0px 0px 0px 200px;
+	
+}
